@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+nav{
+  width: 100%;
+  background-color: transparent;
+  overflow: auto;
+}
+
+nav a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+nav a:hover{
+  background-color: rgb(63, 61, 65);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+body{
+  font-family: 'DM sans';
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cover-image{
+  width: 200vh;
+  max-height: 9vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.featured-image{
+  width: 30vh;
+  max-height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer{
+  padding: 20px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1080px) {
+  #content {
+    width: 100%;
+    padding: 0;
+  }
+}

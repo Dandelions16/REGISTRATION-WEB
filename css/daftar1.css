@@ -1,0 +1,108 @@
+*.html{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+margin: 0;
+padding:0;
+
+}
+
+.sticky-content {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #867d70e5;
+  
+  padding: 1rem 20px;
+  height: 11vh;
+  padding: 2px 8px;
+  align-content: center;
+
+}
+.li-navbar{
+  list-style-type: none;
+  display: flex;
+ 
+  padding: 0vh 1vh;
+  font-size: 4vh;
+  margin:2vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style:bold;
+  
+}
+
+.smai{
+align-items: center;
+  margin-right: auto;
+  padding:3vh;
+  font-family:garamond;
+  font-size: 4vh;
+  padding: 2vh 0vh;
+}
+
+
+.logout{
+padding: 2vh 1vh;
+align-items: center;
+  margin-left: auto;
+  padding:2vh;
+  font-family:garamond;
+  font-size: 4vh;
+}
+
+.li-navbar :hover{
+background-color:#969695;
+transition: .2s ease-out;
+transition-delay: .1s;
+border-radius: 10px;
+padding:4px;
+color: #cccacc;
+}
+
+.a-navbar{
+  color:black;
+  text-decoration: none;
+}
+.sticky-content-title {
+  margin: 0;
+  border-radius: 1px;
+  list-style-type: none;
+  display: flex;
+  color: black;
+  padding:8px;
+  margin-right: auto;
+  font-size: 20px;
+  
+}
+.placeholder-content {
+ height:4500px;
+  background-color: #cccab5;;
+ 
+}
+.jurusan{
+  list-style-type: none;
+  display: flex;
+  color: rgb(191, 31, 31);
+  padding: 2px 10px;
+  font-size: 35px;
+  justify-self: unset;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.jurusan:hover{
+  background-color: #cccacc;
+  transition: .2s ease-out;
+  transition-delay: .1s;
+  border-radius: 100px;
+  padding:10px;
+  
+}
+.jurusan1{
+  color:black;
+  text-decoration: none; 
+}

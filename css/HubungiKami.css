@@ -1,0 +1,103 @@
+  body{
+    background: #eee;
+    padding:0%;
+    margin: 0%;
+    font-family: monospace;
+    
+  }
+  .sticky-content {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #96928c;
+    
+    padding: 1rem 20px;
+    height: 11vh;
+    padding: 2px 8px;
+    align-content: center;
+  
+  }
+  .li-navbar{
+    list-style-type: none;
+    display: flex;
+   
+    padding: 0vh 1vh;
+    font-size: 4vh;
+    margin:2vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:bold;
+    
+  }
+  
+  .smai{
+  align-items: center;
+    margin-right: auto;
+    padding:3vh;
+    font-family:garamond;
+    font-size: 4vh;
+    padding: 2vh 0vh;
+  }
+  
+  
+  .logout{
+  padding: 2vh 1vh;
+  align-items: center;
+    margin-left: auto;
+    padding:2vh;
+    font-family:garamond;
+    font-size: 4vh;
+  }
+  
+  .li-navbar :hover{
+  background-color:#969695;
+  transition: .2s ease-out;
+  transition-delay: .1s;
+  border-radius: 10px;
+  padding:4px;
+  color: #cccacc;
+  }
+  
+  .a-navbar{
+    color:black;
+    text-decoration: none;
+  }
+  .sticky-content-title {
+    margin: 0;
+    border-radius: 1px;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    padding:8px;
+    margin-right: auto;
+    font-size: 20px;
+    
+  }
+  .placeholder-content {
+   height:4500px;
+    background-color: #cccab5;;
+   
+  }
+
+  .faq-item{
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .faq-body{
+    display: none;
+    margin-top: 30px;
+  }
+  .faq-wrapper{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .faq-inner{
+    padding: 30px;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .faq-plus{
+    float: right;
+    font-size: 1.4em;
+    line-height: 1em;
+    cursor: pointer;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/regis1.css">
+  <title>Registrasi  |  SMA IKY JAYA</title>
+</head>
+
+<body>
+  <div ng-app="ods-widgets">
+    <div class="placeholder-content">
+      <div class="regform">
+        <h1>REGISTRASI</h1>
+      </div>
+      <div class="main">
+        <form action="./progres/proses_register.php" method="POST">
+          <h2 class="name">User Name</h2>
+          <input class="user" type="text" name="user"><br>
+          <h2 class="name">Email</h2>
+          <input class="email" type="email" name="email"><br>
+          <h2 class="name">Password</h2>
+          <input class="password" type="password" name="password"><br>
+          <h2 class="name">Phone</h2>
+          <input class="code" type="tel" placeholder="+62" disabled name="area_code">
+          <label class="area-code">CODE</label>
+          <input class="phonenumber" type="tel" name="phone_number">
+          <label class="phone-number">No-Telp</label>
+          <div class="checkbox">
+            <input type="checkbox" id="vehicle1" name="vehiclel" value="bike">
+            <label for="vehiclel">apakah anda sudah mengisi dengan benar?</label><br>
+          </div>
+          <button type="submit" name="daftar">DAFTAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

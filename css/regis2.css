@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding:0%;
+}
+.sticky-content {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #96928c;
+  
+  padding: 1rem 20px;
+  height: 11vh;
+  padding: 2px 8px;
+  align-content: center;
+
+}
+.li-navbar{
+  list-style-type: none;
+  display: flex;
+ 
+  padding: 0vh 1vh;
+  font-size: 4vh;
+  margin:2vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style:bold;
+  
+}
+
+.smai{
+align-items: center;
+  margin-right: auto;
+  padding:3vh;
+  font-family:garamond;
+  font-size: 4vh;
+  padding: 2vh 0vh;
+}
+
+
+.logout{
+padding: 2vh 1vh;
+align-items: center;
+  margin-left: auto;
+  padding:2vh;
+  font-family:garamond;
+  font-size: 4vh;
+}
+
+.li-navbar :hover{
+background-color:#969695;
+transition: .2s ease-out;
+transition-delay: .1s;
+border-radius: 10px;
+padding:4px;
+color: #cccacc;
+}
+
+.a-navbar{
+  color:black;
+  text-decoration: none;
+}
+.sticky-content-title {
+  margin: 0;
+  border-radius: 1px;
+  list-style-type: none;
+  display: flex;
+  color: black;
+  padding:8px;
+  margin-right: auto;
+  font-size: 20px;
+}
+.placeholder-content {
+ height:auto;
+ width: auto;
+  background-color: #cccab5;;
+ 
+}
+
+
+.pendaftaran{
+  color: #000;
+}
+.main{
+  color: #000;
+  font-size: 20px ;
+  background-color:#fffde7;
+  width:810px;
+  margin:auto;
+}
+.ortu1{
+  margin-left: 100px;
+}
+.pek ortu1{
+  margin-left: 200px;
+}
